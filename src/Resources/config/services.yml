@@ -1,0 +1,5 @@
+services:
+    Shyim\DatabaseEntitiesBuilder\:
+        resource: '../../../vendor/shyim/database-entities-builder/src'
+        autowire: true
+        autoconfigure: true

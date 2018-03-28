@@ -1,0 +1,23 @@
+{
+  "name": "shyim/database-entities-builder-bundle",
+  "type": "symfony-bundle",
+  "description": "Generates simple database models from doctrine mysql schema",
+  "keywords": ["database", "doctrine", "models", "simple-orm"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Soner Sayakci",
+      "email": "shyim@outlook.de"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "nette/php-generator": "^3.1",
+    "shyim/database-entities-builder": "^0.1.1"
+  },
+  "autoload": {
+    "psr-4" : {
+      "Shyim\\DatabaseEntitiesBuilderBundle\\": "src/"
+    }
+  }
+}
