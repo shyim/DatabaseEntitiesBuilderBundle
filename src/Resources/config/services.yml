@@ -3,3 +3,4 @@ services:
         resource: '../../../../database-entities-builder/src/'
         autowire: true
         autoconfigure: true
+        public: true
