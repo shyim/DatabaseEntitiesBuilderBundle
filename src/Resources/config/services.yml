@@ -1,5 +1,5 @@
 services:
     Shyim\DatabaseEntitiesBuilder\:
-        resource: '../../../../shyim/database-entities-builder/src'
+        resource: '../../../../database-entities-builder-bundle/src/'
         autowire: true
         autoconfigure: true
